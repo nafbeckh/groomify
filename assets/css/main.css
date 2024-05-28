@@ -165,47 +165,36 @@ body {
 }
 
 .section-heading h2 em {
-  color: #101820;
+  color: #313c59;
   font-style: normal;
 }
 
 .section-heading h6 {
-  color: #101820;
+  color: #313c59;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
 }
 
 .main-button a {
+  color: #fff;
   display: inline-block;
-  background-color: #fff;
-  color: #101820;
   font-size: 14px;
   font-weight: 500;
   height: 40px;
   line-height: 40px;
+  background-color: #313c59;
   padding: 0px 25px;
   border-radius: 20px;
   transition: all 0.3s;
 }
 
 .main-button a:hover {
-  background-color: #101820;
-  color: #fff;
-}
-
-#btn-join a {
-  background-color: #101820;
-  color: #fff;
-}
-
-#btn-join a:hover {
-  background-color: rgb(145, 133, 214);
-  color: #fff;
+  background-color: #405182;
 }
 
 .background-header {
-  background-color: #101820 !important;
+  background-color: #313c59 !important;
   height: 80px !important;
   position: fixed !important;
   top: 0 !important;
@@ -432,12 +421,12 @@ body {
 }
 
 #top video {
-  z-index: 0;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 #top .container {
   margin-left: 120px;
+  width: 80%;
 }
 
 #top .container h1 {
@@ -445,13 +434,6 @@ body {
   font-weight: 700;
   line-height: 60px;
   transition: all .4s;
-}
-
-#career {
-  position: relative;
-  margin-top: -80px;
-  background-color: #fff;
-  border-radius: 86px 86px 0 0;
 }
 
 @media (max-width: 1200px) {
@@ -516,7 +498,7 @@ body {
 
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #101820 !important;
+    color: #313c59 !important;
     opacity: 1;
   }
 
@@ -579,7 +561,8 @@ body {
   }
 
   #top .container {
-    margin-top: 80px;
+    width: 90%;
+    margin-top: 100px;
     margin-left: 20px;
   }
   

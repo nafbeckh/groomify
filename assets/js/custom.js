@@ -6,7 +6,7 @@
 		var scroll = $(window).scrollTop();
 		var header = $('header').height();
 
-		if (scroll >= 200 - header) {
+		if (scroll >= 160 - header) {
 			$("header").addClass("background-header");
 		} else {
 			$("header").removeClass("background-header");
