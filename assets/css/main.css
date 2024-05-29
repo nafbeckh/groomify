@@ -663,6 +663,41 @@ body {
   line-height: 30px;
 }
 
+.mobile {
+  padding: 80px;
+  background: url('../images/content/bg-ui.webp') no-repeat;
+  background-color: #4e5a7d;
+  background-position: 560px -520px;
+  background-size: 760px;
+}
+
+@media (max-width: 767px) {
+  .mobile {
+    padding: 40px;
+  }
+}
+
+.mobile h2 {
+  color: #fff;
+}
+
+.mobile .buttons {
+  display: flex;
+}
+
+#btn-download {
+  margin-right: 12px;
+}
+
+#btn-download a {
+  color: #000000;
+  background-color: #fff;
+}
+
+#btn-download a:hover {
+  background-color: #efe6e6;
+}
+
 footer .container {
   padding: 60px 30px 0 30px;
 }
